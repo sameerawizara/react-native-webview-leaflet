@@ -5,7 +5,11 @@ import { createDivIcon } from "./utilities";
 import {
   WebViewLeafletEvents,
   MapMarker,
+<<<<<<< HEAD
   OWN_POSTION_MARKER_ID,
+=======
+  OWN_POSTION_MARKER_ID
+>>>>>>> a27bc89559bc8ab470ae89b0d4faef1a2433ebb0
 } from "./models";
 import { LatLngExpression } from "leaflet";
 require("react-leaflet-markercluster/dist/styles.min.css");

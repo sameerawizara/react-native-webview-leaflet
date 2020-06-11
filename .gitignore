@@ -24,4 +24,5 @@ secrets.ts
 /HTML/precompile
 /HTML/readyForBuild
 /HTML/.cache
+/HTML/yarn-error.log
 node_modules

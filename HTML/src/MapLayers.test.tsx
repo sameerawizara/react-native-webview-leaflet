@@ -4,7 +4,10 @@ import { render } from "@testing-library/react";
 import mockMapLayers from "./testData/mockMapLayers";
 import { Map } from "react-leaflet";
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> a27bc89559bc8ab470ae89b0d4faef1a2433ebb0
 describe("MapLayers Component", () => {
   test("it renders", () => {
     console.log(MapLayerComponent);
