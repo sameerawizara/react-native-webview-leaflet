@@ -1,5 +1,8 @@
 {
   "name": "react-native-webview-leaflet",
+  "main": "WebViewLeaflet/index.ts",
+  "typings": "WebViewLeaflet/index.d.ts",
+  "version": "5.0.2",
   "devDependencies": {
     "gulp": "^4.0.2",
     "gulp-run": "^1.7.1"
