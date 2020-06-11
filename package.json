@@ -6,5 +6,10 @@
   "devDependencies": {
     "gulp": "^4.0.2",
     "gulp-run": "^1.7.1"
+  },
+  "peerDependencies": {
+    "react": "^16.9.0",
+    "react-leaflet": "^2.6.1",
+    "react-native": "^0.61.2"
   }
 }
