@@ -4,16 +4,10 @@ import Measure from "react-measure";
 import { Map, LatLng } from "react-leaflet";
 import MapLayers from "./MapLayers";
 import MapMarkers from "./MapMarkers";
-<<<<<<< HEAD
 import { SHOW_DEBUG_INFORMATION } from "./mapComponent";
 import { WebViewLeafletEvents, MapLayer, MapMarker, MapShape, HeatMap } from "./models";
 import MapShapes from "./MapShapes";
 import HeatMaps from "./heatMApLayer"
-=======
-import { SHOW_DEBUG_INFORMATION } from "./MapComponent";
-import { WebViewLeafletEvents, MapLayer, MapMarker, MapShape } from "./models";
-import MapShapes from "./MapShapes";
->>>>>>> a27bc89559bc8ab470ae89b0d4faef1a2433ebb0
 import { LatLngExpression } from "leaflet";
 
 interface MapComponentViewProps {
@@ -27,10 +21,7 @@ interface MapComponentViewProps {
   ownPositionMarker: MapMarker;
   setMapRef: (mapRef: any) => void;
   zoom: number;
-<<<<<<< HEAD
   heatmap: HeatMap
-=======
->>>>>>> a27bc89559bc8ab470ae89b0d4faef1a2433ebb0
 }
 
 const MapComponentView: React.FC<MapComponentViewProps> = ({
@@ -43,12 +34,8 @@ const MapComponentView: React.FC<MapComponentViewProps> = ({
   onMapEvent,
   ownPositionMarker,
   setMapRef,
-<<<<<<< HEAD
   zoom = 13,
   heatmap 
-=======
-  zoom = 13
->>>>>>> a27bc89559bc8ab470ae89b0d4faef1a2433ebb0
 }: MapComponentViewProps) => {
   const [dimensions, setDimensions] = useState({ height: 0, width: 0 });
   const [combinedMapMarkers, setCombinedMapMarkers] = useState([]);
@@ -138,10 +125,7 @@ const MapComponentView: React.FC<MapComponentViewProps> = ({
                   onMapEvent={onMapEvent}
                 />
                 <MapShapes mapShapes={mapShapes} onMapEvent={onMapEvent} />
-<<<<<<< HEAD
                 <HeatMaps heatmap={heatmap}  onMapEvent={onMapEvent} />
-=======
->>>>>>> a27bc89559bc8ab470ae89b0d4faef1a2433ebb0
               </Map>
             )}
           </div>
