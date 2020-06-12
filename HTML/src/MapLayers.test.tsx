@@ -4,13 +4,8 @@ import { render } from "@testing-library/react";
 import mockMapLayers from "./testData/mockMapLayers";
 import { Map } from "react-leaflet";
 
-<<<<<<< HEAD
-
-=======
->>>>>>> a27bc89559bc8ab470ae89b0d4faef1a2433ebb0
 describe("MapLayers Component", () => {
   test("it renders", () => {
-    console.log(MapLayerComponent);
     const { asFragment } = render(
       <Map center={[0, 0]} zoom={13} style={{ width: 100, height: 100 }}>
         <MapLayerComponent mapLayers={mockMapLayers} />
