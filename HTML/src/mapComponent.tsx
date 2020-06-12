@@ -40,7 +40,7 @@ interface State {
   ownPositionMarker: MapMarker;
   mapRef: any;
   zoom: number;
-  heatmap: HeatMap
+  heatmap: HeatMap;
   
 }
 
@@ -209,7 +209,7 @@ export default class MapComponent extends Component<{}, State> {
       zoom,
       heatmap
     } = this.state;
-    console.log(">>>>>>>>>>>>>>>>>>>>>>>>>>>>",heatmap)
+    // console.log(">>>>>>>>>>>>>>>>>>>>>>>>>>>>",heatmap)
     return (
       <MapComponentView
         addDebugMessage={this.addDebugMessage}

@@ -135,7 +135,7 @@ export interface MapStartupMessage {
   mapCenterPosition?: LatLng;
   ownPositionMarker?: OwnPositionMarker;
   zoom?: number;
-  // heatmap?: HeatMap
+  heatmap?: HeatMap;
 }
 
 export type WebviewLeafletMessagePayload = {

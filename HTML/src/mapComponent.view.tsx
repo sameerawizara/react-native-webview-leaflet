@@ -21,7 +21,7 @@ interface MapComponentViewProps {
   ownPositionMarker: MapMarker;
   setMapRef: (mapRef: any) => void;
   zoom: number;
-  heatmap: HeatMap
+  heatmap: HeatMap;
 }
 
 const MapComponentView: React.FC<MapComponentViewProps> = ({
